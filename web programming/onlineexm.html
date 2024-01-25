@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>online exm</title>
+<body>
+<style>
+     body {
+            background-color:pink;
+        }
+        p {
+            font-weight: bold;
+            color:white;
+        }
+    </style>
+<h1>ONLINE EXAMINATION</h1>
+question 1;<br><br>
+__________ is our country<br><br>
+<input type="radio" name="1" id="q">india<br><br>
+<input type="radio" name="1">china<br><br>
+<input type="radio" name="1">pakisthan<br><br>
+<input type="radio" name="1">none of the above
+<br><br>
+question 2;<br><br>
+__________is the father of computer<br><br>
+<input type="radio" name="2">george ferrorry<br><br>
+<input type="radio" name="2">david michael<br><br>
+<input type="radio" name="2" id="q1">charles babbage<br><br>
+<input type="radio" name="2">none of the above
+<br><br>
+question 3;<br><br>
+cpu stands for__________<br><br>
+<input type="radio" name="3">central processor unit<br><br>
+<input type="radio" name="3" id="q2">central processing unit<br><br>
+<input type="radio" name="3">centralized processor<br><br>
+<input type="radio" name="3">none of the above
+<br><br>
+question 4;<br><br>
+Non physical components of the computer are reffered to as___________<br><br>
+<input type="radio" name="4">motherboard<br><br>
+<input type="radio" name="4">cpu<br><br>
+<input type="radio" name="4" id="q3">Software<br><br>
+<input type="radio" name="4">Hardware
+<br><br>
+question 5;<br><br>
+_________is the father of nation<br><br>
+<input type="radio" name="5">jawaharlal nehru<br><br>
+<input type="radio" name="5">subhash chandra bose<br><br>
+<input type="radio" name="5" id="q4">mahatma gandhi<br><br>
+<input type="radio" name="5">none of the above
+<br><br>
+question 6;<br><br>
+__________is a type of database software<br><br>
+<input type="radio" name="6">Ms-Access<br><br>
+<input type="radio" name="6">oracle<br><br>
+<input type="radio" name="6">sql<br><br>
+<input type="radio" name="6" id="q5">All of the above
+<br><br>
+question 7;<br><br>
+__________is a device can store large amount of data<br><br>
+<input type="radio" name="7">floppy disk<br><br>
+<input type="radio" name="7"id="q6">hard disk<br><br>
+<input type="radio" name="7">zip disk<br><br>
+<input type="radio" name="7">all of the above
+<br><br>
+question 8;<br><br>
+punched cards were first introduced by<br><br>
+<input type="radio" name="8">powers<br><br>
+<input type="radio" name="8">pascal<br><br>
+<input type="radio" name="8">jacquard<br><br>
+<input type="radio" name="8"id="q7">Herman Hollerith
+<br><br>
+question 9;<br><br>
+word length of a personal computer is__________<br><br>
+<input type="radio" name="9">4 bits<br><br>
+<input type="radio" name="9"id="q8">8 bits<br><br>
+<input type="radio" name="9">16 bits<br><br>
+<input type="radio" name="9">64 bits
+<br><br>
+question 10;<br><br>
+when did john napier develop logarithm ?<br><br>
+<input type="radio" name="10">1416<br><br>
+<input type="radio" name="10"id="q9">1614<br><br>
+<input type="radio" name="10">1641<br><br>
+<input type="radio" name="10">1804
+<br><br>
+<button onclick="score()">SUBMIT</button>
+<script type="text/javascript">
+function score()
+{
+var score;
+score=0
+if(document.getElementById("q").checked)
+score=score+1;
+if(document.getElementById("q1").checked)
+score=score+1;
+if(document.getElementById("q2").checked)
+score=score+1;
+if(document.getElementById("q3").checked)
+score=score+1;
+if(document.getElementById("q4").checked)
+score=score+1;
+if(document.getElementById("q5").checked)
+score=score+1;
+if(document.getElementById("q6").checked)
+score=score+1;
+if(document.getElementById("q7").checked)
+score=score+1;
+if(document.getElementById("q8").checked)
+score=score+1;
+if(document.getElementById("q9").checked)
+score=score+1;
+alert("Your score is "+score);
+}
+</script>
+</body>
+</head>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

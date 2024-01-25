@@ -1,0 +1,21 @@
+<html>
+<head>
+<body>
+<link rel="stylesheet" href="style2.css">
+<h1>Adding two numbers</h1>
+Enter the First Number: <input id="n1"><br><br>
+Enter the Second Number: <input id="n2"><br><br>
+<button onclick="sum()">SUM</button>
+<input id="answer">
+<script>
+function sum()
+{
+var a = parseInt(document.getElementById("n1").value);
+var b = parseInt(document.getElementById("n2").value);
+var sum = a + b;
+document.getElementById("answer").value = sum;
+}
+</script>
+</body>
+</head>
+</html>
